@@ -17,8 +17,9 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.VOID_BREATH_POTION.get()))
                     .title(Component.translatable("creativetab.potatomans_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(Moditems.RAW_TUNGSTEN.get());
                         output.accept(Moditems.VOID_BREATH_POTION.get());
+                        output.accept(Moditems.RAW_TUNGSTEN.get());
+                        output.accept(Moditems.TUNGSTEN_INGOT.get());
 
 
                     })
