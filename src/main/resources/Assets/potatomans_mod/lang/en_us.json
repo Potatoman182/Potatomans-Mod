@@ -1,3 +1,6 @@
 {
-  "item.potatomans_mod.void_breath_potion": "Void Breath Potion"
+  "item.potatomans_mod.void_breath_potion": "Void Breath Potion",
+  "item.potatomans_mod.raw_tungsten": "Raw Tungsten",
+
+  "creativetab.potatomans_tab": "Potatomans Mod"
 }

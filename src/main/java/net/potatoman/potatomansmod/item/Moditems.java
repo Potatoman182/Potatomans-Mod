@@ -13,6 +13,9 @@ public class Moditems {
 
     public static final RegistryObject<Item> VOID_BREATH_POTION = ITEMS.register("void_breath_potion",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_TUNGSTEN = ITEMS.register("raw_tungsten",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

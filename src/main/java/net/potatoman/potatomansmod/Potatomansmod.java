@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.potatoman.potatomansmod.item.ModCreativeModeTabs;
 import net.potatoman.potatomansmod.item.Moditems;
 import org.slf4j.Logger;
 
@@ -25,6 +26,8 @@ public class Potatomansmod {
 
     public Potatomansmod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
 
         Moditems.register(modEventBus);
 
@@ -45,6 +48,7 @@ public class Potatomansmod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(Moditems.VOID_BREATH_POTION);
+            event.accept(Moditems.RAW_TUNGSTEN);
         }
     }
 
