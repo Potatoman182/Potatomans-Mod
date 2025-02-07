@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.potatoman.potatomansmod.Potatomansmod;
+import net.potatoman.potatomansmod.blocks.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -21,6 +22,7 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.RAW_TUNGSTEN.get());
                         output.accept(Moditems.TUNGSTEN_INGOT.get());
 
+                        output.accept(ModBlocks.CRACKED_BEDROCK.get());
 
                     })
                     .build());
