@@ -21,8 +21,10 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.VOID_BREATH_POTION.get());
                         output.accept(Moditems.RAW_TUNGSTEN.get());
                         output.accept(Moditems.TUNGSTEN_INGOT.get());
+                        output.accept(Moditems.TUNGSTEN_NUGGET.get());
 
                         output.accept(ModBlocks.CRACKED_BEDROCK.get());
+                        output.accept(ModBlocks.TUNGSTEN_BLOCK.get());
 
                     })
                     .build());
