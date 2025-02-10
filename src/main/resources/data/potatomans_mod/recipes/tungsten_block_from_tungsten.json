@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "potatomans_mod:tungsten_ingot"
+    }
+  },
+  "result": {
+    "item": "potatomans_mod:tungsten_block"
+  }
+}
