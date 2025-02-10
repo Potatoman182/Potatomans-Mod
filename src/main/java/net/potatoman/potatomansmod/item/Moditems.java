@@ -24,8 +24,7 @@ public class Moditems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TUNGSTEN_ARROW = ITEMS.register("tungsten_arrow",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SUPER_STEAK = ITEMS.register("super_steak",
-            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
