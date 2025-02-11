@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "potatomans_mod:tungsten_ingot"
+    }
+  ],
+  "result": {
+    "item": "potatomans_mod:tungsten_nugget",
+    "count": 9
+  }
+}
