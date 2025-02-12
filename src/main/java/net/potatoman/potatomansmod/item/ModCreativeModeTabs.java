@@ -27,6 +27,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.CRACKED_BEDROCK.get());
                         output.accept(ModBlocks.TUNGSTEN_BLOCK.get());
+                        output.accept(ModBlocks.VOID_STONE.get());
+                        output.accept(ModBlocks.TUNGSTEN_ORE.get());
 
                     })
                     .build());
