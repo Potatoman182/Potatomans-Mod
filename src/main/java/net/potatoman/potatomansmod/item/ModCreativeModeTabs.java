@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.TUNGSTEN_BLOCK.get());
                         output.accept(ModBlocks.VOID_STONE.get());
                         output.accept(ModBlocks.TUNGSTEN_ORE.get());
+                        output.accept(ModBlocks.RAW_TUNGSTEN_BLOCK.get());
 
                     })
                     .build());

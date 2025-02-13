@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "potatomans_mod:raw_tungsten_block"
+    }
+  ],
+  "result": {
+    "item": "potatomans_mod:raw_tungsten",
+    "count": 9
+  }
+}

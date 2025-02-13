@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "potatomans_mod:raw_tungsten"
+    }
+  },
+  "result": {
+    "item": "potatomans_mod:raw_tungsten_block"
+  }
+}
