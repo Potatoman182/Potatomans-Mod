@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.potatoman.potatomansmod.Potatomansmod;
+import net.potatoman.potatomansmod.item.custom.BedrockBreakerItem;
 
 public class Moditems {
     public static  final DeferredRegister<Item> ITEMS =
@@ -24,6 +25,8 @@ public class Moditems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TUNGSTEN_ARROW = ITEMS.register("tungsten_arrow",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BEDROCK_BREAKER = ITEMS.register("bedrock_breaker",
+            () -> new BedrockBreakerItem(new Item.Properties().durability(1)));
 
 
     public static void register(IEventBus eventBus) {
