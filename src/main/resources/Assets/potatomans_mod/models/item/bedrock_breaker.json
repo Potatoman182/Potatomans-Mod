@@ -1,3 +1,6 @@
 {
-  "parent": "potatomans_mod:block/bedrock_breaker"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "potatomans_mod:item/bedrock_breaker"
+  }
 }
