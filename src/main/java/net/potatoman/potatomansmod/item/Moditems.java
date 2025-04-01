@@ -27,6 +27,8 @@ public class Moditems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BEDROCK_BREAKER = ITEMS.register("bedrock_breaker",
             () -> new BedrockBreakerItem(new Item.Properties().durability(1)));
+    public static final RegistryObject<Item> RAW_VOID_HOPPER_LEG = ITEMS.register("raw_void_hopper_leg",
+            () -> new BedrockBreakerItem(new Item.Properties().food(ModFoods.Raw_Void_Hopper_Leg)));
 
 
     public static void register(IEventBus eventBus) {

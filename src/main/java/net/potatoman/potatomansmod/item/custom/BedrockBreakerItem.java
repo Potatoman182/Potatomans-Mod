@@ -27,7 +27,7 @@ public class BedrockBreakerItem extends Item {
         if (blockState.getBlock() == Blocks.BEDROCK) {
 
             if (!world.isClientSide) {
-                world.setBlockAndUpdate(context.getClickedPos(), Blocks.COPPER_BLOCK.defaultBlockState());
+                world.setBlockAndUpdate(context.getClickedPos(), Blocks.CRYING_OBSIDIAN.defaultBlockState());
 
                 spawnBlockBreakingParticles(world, context.getClickedPos(), blockState);
 
