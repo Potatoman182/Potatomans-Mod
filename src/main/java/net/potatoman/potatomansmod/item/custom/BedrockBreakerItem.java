@@ -11,12 +11,14 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.BlockParticleOption;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.level.block.Block;
+import net.potatoman.potatomansmod.blocks.ModBlocks;
 
 public class BedrockBreakerItem extends Item {
 
     public BedrockBreakerItem(Properties pProperties) {
         super(pProperties);
     }
+
     @Override
     public InteractionResult useOn(UseOnContext context) {
         Level world = context.getLevel();
@@ -27,7 +29,8 @@ public class BedrockBreakerItem extends Item {
         if (blockState.getBlock() == Blocks.BEDROCK) {
 
             if (!world.isClientSide) {
-                world.setBlockAndUpdate(context.getClickedPos(), Blocks.CRYING_OBSIDIAN.defaultBlockState());
+
+                world.setBlockAndUpdate(context.getClickedPos(), ModBlocks.CRACKED_BEDROCK.get().defaultBlockState());
 
                 spawnBlockBreakingParticles(world, context.getClickedPos(), blockState);
 
@@ -37,14 +40,10 @@ public class BedrockBreakerItem extends Item {
         return InteractionResult.PASS;
     }
     private void spawnBlockBreakingParticles(Level world, BlockPos pos, BlockState blockState) {
-
         if (world.isClientSide) {
-
             BlockParticleOption particleData = new BlockParticleOption(ParticleTypes.BLOCK, blockState);
-
             world.addParticle(particleData, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, 0.5, 0.5, 0.5);
         } else {
-
             int blockId = Block.getId(blockState);
             world.levelEvent(2001, pos, blockId);
         }
