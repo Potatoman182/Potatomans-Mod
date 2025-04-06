@@ -8,6 +8,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.potatoman.potatomansmod.Potatomansmod;
 import net.potatoman.potatomansmod.item.custom.BedrockBreakerItem;
+import net.potatoman.potatomansmod.item.custom.FuelItem;
 
 public class Moditems {
     public static  final DeferredRegister<Item> ITEMS =
@@ -29,7 +30,8 @@ public class Moditems {
             () -> new BedrockBreakerItem(new Item.Properties().durability(1)));
     public static final RegistryObject<Item> RAW_VOID_HOPPER_LEG = ITEMS.register("raw_void_hopper_leg",
             () -> new BedrockBreakerItem(new Item.Properties().food(ModFoods.Raw_Void_Hopper_Leg)));
-
+    public static final RegistryObject<Item> VOID_HOPPER_POISON_BALL = ITEMS.register("void_hopper_poison_ball",
+            () -> new FuelItem(new Item.Properties(), 150));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

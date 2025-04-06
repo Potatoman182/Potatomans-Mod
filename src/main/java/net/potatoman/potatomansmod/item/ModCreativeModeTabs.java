@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.TUNGSTEN_ARROW.get());
                         output.accept(Moditems.BEDROCK_BREAKER.get());
                         output.accept(Moditems.RAW_VOID_HOPPER_LEG.get());
+                        output.accept(Moditems.VOID_HOPPER_POISON_BALL.get());
 
                         output.accept(ModBlocks.CRACKED_BEDROCK.get());
                         output.accept(ModBlocks.TUNGSTEN_BLOCK.get());
