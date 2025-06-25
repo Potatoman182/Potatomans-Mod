@@ -15,5 +15,7 @@
   "block.potatomans_mod.tungsten_ore": "Tungsten Ore",
   "block.potatomans_mod.raw_tungsten_block": "Raw Tungsten Block",
 
+  "tooltip.potatomansmod.bedrock_breaker.tooltip": "Right click on bedrock to damage it reveling the void beneath",
+
   "creativetab.potatomans_tab": "Potatomans Mod"
 }

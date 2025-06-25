@@ -27,9 +27,9 @@ public class Moditems {
     public static final RegistryObject<Item> TUNGSTEN_ARROW = ITEMS.register("tungsten_arrow",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BEDROCK_BREAKER = ITEMS.register("bedrock_breaker",
-            () -> new BedrockBreakerItem(new Item.Properties().durability(1)));
+            () -> new BedrockBreakerItem(new Item.Properties().durability(2)));
     public static final RegistryObject<Item> RAW_VOID_HOPPER_LEG = ITEMS.register("raw_void_hopper_leg",
-            () -> new BedrockBreakerItem(new Item.Properties().food(ModFoods.Raw_Void_Hopper_Leg)));
+            () -> new Item(new Item.Properties().food(ModFoods.Raw_Void_Hopper_Leg)));
     public static final RegistryObject<Item> VOID_HOPPER_POISON_BALL = ITEMS.register("void_hopper_poison_ball",
             () -> new FuelItem(new Item.Properties(), 150));
 
