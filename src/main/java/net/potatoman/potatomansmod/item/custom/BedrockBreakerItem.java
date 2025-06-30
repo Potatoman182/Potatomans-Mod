@@ -28,24 +28,22 @@ public class BedrockBreakerItem extends Item {
         Level world = pContext.getLevel();
         Player player1 = pContext.getPlayer();
 
-        BlockState blockState = world.getBlockState(pContext.getClickedPos());
+        BlockPos pos = pContext.getClickedPos();
+        BlockState blockState = world.getBlockState(pos);
 
         if (blockState.getBlock() == Blocks.BEDROCK) {
-
             if (!world.isClientSide) {
+                world.setBlockAndUpdate(pos, ModBlocks.CRACKED_BEDROCK.get().defaultBlockState());
 
-                world.setBlockAndUpdate(pContext.getClickedPos(), ModBlocks.CRACKED_BEDROCK.get().defaultBlockState());
+                spawnBlockBreakingParticles(world, pos, blockState);
 
-                spawnBlockBreakingParticles(world, pContext.getClickedPos(), blockState);
-
-                return InteractionResult.SUCCESS;
+                pContext.getItemInHand().hurtAndBreak(1, player1,
+                        player -> player.broadcastBreakEvent(player.getUsedItemHand()));
             }
+            return InteractionResult.SUCCESS;
         }
 
-        pContext.getItemInHand().hurtAndBreak(1, pContext.getPlayer(),
-                player -> player.broadcastBreakEvent(player.getUsedItemHand()));
-
-        return InteractionResult.SUCCESS;
+        return super.useOn(pContext);
     }
 
     @Override
@@ -64,3 +62,4 @@ public class BedrockBreakerItem extends Item {
         }
     }
 }
+
