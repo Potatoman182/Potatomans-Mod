@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "potatomans_mod:item/raw_void_hopper_leg"
-  }
-}

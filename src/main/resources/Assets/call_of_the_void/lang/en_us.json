@@ -1,0 +1,21 @@
+{
+  "item.call_of_the_void.void_breath_potion": "Void Breath Potion",
+  "item.call_of_the_void.raw_tungsten": "Raw Tungsten",
+  "item.call_of_the_void.tungsten_ingot": "Tungsten Ingot",
+  "item.call_of_the_void.tungsten_nugget": "Tungsten Nugget",
+  "item.call_of_the_void.tungsten_arrow_head": "Tungsten Arrow Head",
+  "item.call_of_the_void.tungsten_arrow": "Tungsten Arrow",
+  "item.call_of_the_void.bedrock_breaker": "Bedrock Breaker",
+  "item.call_of_the_void.raw_void_hopper_leg": "Raw Void Hopper Leg",
+  "item.call_of_the_void.void_hopper_poison_ball": "Void Hopper Poison Ball",
+
+  "block.call_of_the_void.cracked_bedrock": "Cracked Bedrock",
+  "block.call_of_the_void.tungsten_block": "Tungsten Block",
+  "block.call_of_the_void.void_stone": "Void Stone",
+  "block.call_of_the_void.tungsten_ore": "Tungsten Ore",
+  "block.call_of_the_void.raw_tungsten_block": "Raw Tungsten Block",
+
+  "tooltip.call_of_the_void.bedrock_breaker.tooltip": "Right click on bedrock to damage it reveling the void beneath",
+
+  "creativetab.callofthevoid_tab": "Call of the Void"
+}
