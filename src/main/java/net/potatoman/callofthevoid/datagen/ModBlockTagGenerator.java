@@ -27,7 +27,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 //.add(ModBlocks..get());
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
-                .add(ModBlocks.CRACKED_BEDROCK.get(),
+                .add(ModBlocks.CRACKED_BEDROCK.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.TUNGSTEN_BLOCK.get(),
