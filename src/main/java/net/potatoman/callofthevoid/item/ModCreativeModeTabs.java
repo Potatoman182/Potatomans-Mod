@@ -34,6 +34,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.TUNGSTEN_ORE.get());
                         output.accept(ModBlocks.RAW_TUNGSTEN_BLOCK.get());
 
+                        output.accept(ModBlocks.GENERIC_LOG.get());
+                        output.accept(ModBlocks.GENERIC_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_GENERIC_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_GENERIC_WOOD.get());
+
+                        output.accept(ModBlocks.GENERIC_PLANKS.get());
+                        output.accept(ModBlocks.GENERIC_LEAVES.get());
+
                     })
                     .build());
 

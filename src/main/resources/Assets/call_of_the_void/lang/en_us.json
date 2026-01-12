@@ -15,7 +15,14 @@
   "block.call_of_the_void.tungsten_ore": "Tungsten Ore",
   "block.call_of_the_void.raw_tungsten_block": "Raw Tungsten Block",
 
-  "tooltip.call_of_the_void.bedrock_breaker.tooltip": "Right click on bedrock to damage it reveling the void beneath",
+  "block.call_of_the_void.generic_wood": "Generic Wood",
+  "block.call_of_the_void.generic_log": "Generic Log",
+  "block.call_of_the_void.stripped_generic_wood": "Stripped Generic Wood",
+  "block.call_of_the_void.stripped_generic_log": "stripped Generic Log",
+  "block.call_of_the_void.generic_planks": "Generic Planks",
+  "block.call_of_the_void.generic_leaves": "Generic Leaves",
+
+  "tooltip.call_of_the_void.bedrock_breaker.tooltip": "Right click on bedrock to damage it allowing access to the void beneath",
 
   "creativetab.callofthevoid_tab": "Call of the Void"
 }

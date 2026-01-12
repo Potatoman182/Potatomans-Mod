@@ -43,5 +43,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                     ModBlocks.RAW_TUNGSTEN_BLOCK.get(),
                     ModBlocks.TUNGSTEN_ORE.get(),
                     ModBlocks.CRACKED_BEDROCK.get());
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.GENERIC_LOG.get())
+                .add(ModBlocks.GENERIC_WOOD.get())
+                .add(ModBlocks.STRIPPED_GENERIC_LOG.get())
+                .add(ModBlocks.STRIPPED_GENERIC_WOOD.get());
+
+        this.tag(BlockTags.PLANKS)
+                .add(ModBlocks.GENERIC_PLANKS.get());
+
     }
 }

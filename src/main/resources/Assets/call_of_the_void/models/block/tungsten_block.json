@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "call_of_the_void:block/tungsten_block"
-  }
-}

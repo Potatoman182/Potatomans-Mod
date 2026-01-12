@@ -30,6 +30,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.VOID_STONE.get());
         this.dropSelf(ModBlocks.CRACKED_BEDROCK.get());
 
+        this.dropSelf(ModBlocks.GENERIC_LOG.get());
+        this.dropSelf(ModBlocks.GENERIC_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_GENERIC_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_GENERIC_WOOD.get());
+        this.dropSelf(ModBlocks.GENERIC_PLANKS.get());
+
+        this.add(ModBlocks.GENERIC_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.TUNGSTEN_BLOCK.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
         this.add(ModBlocks.TUNGSTEN_ORE.get(),
                 block -> createSingleOreDrops(ModBlocks.TUNGSTEN_ORE.get(), ModItems.RAW_TUNGSTEN.get()));
     }
