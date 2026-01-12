@@ -1,0 +1,7 @@
+// 1.20.1	2026-01-11T20:38:37.4699265	Tags for minecraft:block mod id call_of_the_void
+1e605beb596fe4582d67bcff85e1e746471a88cd data/forge/tags/blocks/needs_netherite_tool.json
+fc0805aa8f6f5f5fa047527127d6a68a9902fe23 data/minecraft/tags/blocks/logs_that_burn.json
+34aa2956df07bd05aed5ed64a31b5d4fcec74d92 data/minecraft/tags/blocks/mineable/pickaxe.json
+2b1140e1eb30fd75844562ff0f59143f2d5f5c2a data/minecraft/tags/blocks/needs_diamond_tool.json
+04d5efcaefa6f401da3452b13ae5b98a2e694988 data/minecraft/tags/blocks/needs_stone_tool.json
+955031ab987307ddff0ea0087ec7541269b9713c data/minecraft/tags/blocks/planks.json

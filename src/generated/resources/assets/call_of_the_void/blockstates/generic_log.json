@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "call_of_the_void:block/generic_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "call_of_the_void:block/generic_log"
+    },
+    "axis=z": {
+      "model": "call_of_the_void:block/generic_log_horizontal",
+      "x": 90
+    }
+  }
+}
