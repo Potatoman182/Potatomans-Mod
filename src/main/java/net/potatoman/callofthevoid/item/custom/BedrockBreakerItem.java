@@ -48,7 +48,7 @@ public class BedrockBreakerItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.potatomansmod.bedrock_breaker.tooltip"));
+        pTooltipComponents.add(Component.translatable("tooltip.call_of_the_void.bedrock_breaker.tooltip"));
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 
